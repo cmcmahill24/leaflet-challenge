@@ -1,6 +1,6 @@
 # Leaflet-challenge
 Module 15 Challenge:
-My final version of the code is under the static file/js file/ called logic.js
+My final version of the code is under the static file/js file/logic.js
 GitHub Pages link:(https://cmcmahill24.github.io/leaflet-challenge/)
 ## Background 
 The United States Geological Survey, or USGS for short, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes.
