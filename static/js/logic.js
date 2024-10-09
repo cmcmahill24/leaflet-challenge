@@ -45,7 +45,7 @@ d3.json(url).then(data => {
     }).addTo(myMap);
 }).catch(error => console.error("Error fetching the GeoJSON data: ", error));
 
-// Create a legend control
+// Create a legend
 let legend = L.control({ position: "bottomright" });
 
 legend.onAdd = function () {
@@ -62,7 +62,7 @@ legend.onAdd = function () {
         "#ff0000" 
     ];
 
-    // Loop through the depth intervals and create a label with a colored square for each interval
+    // Loop through the depth intervals and add color bar 
     for (let i = 0; i < depths.length; i++) {
         div.innerHTML +=
             '<div style="display: flex; align-items: center;">' +
